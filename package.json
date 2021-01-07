@@ -1,6 +1,6 @@
 {
-  "name": "vega-view",
-  "version": "2.3.2",
+  "name": "@elastic/vega-view",
+  "version": "2.3.2-kibana",
   "description": "View component and transforms for Vega visualizations.",
   "keywords": [
     "vega",
@@ -29,7 +29,7 @@
   "dependencies": {
     "d3-array": "1",
     "vega-dataflow": "3",
-    "vega-parser": "2",
+    "vega-parser": "npm:@elastic/vega-parser@2.7.0-kibana",
     "vega-runtime": "2",
     "vega-scenegraph": "2",
     "vega-util": "1"
